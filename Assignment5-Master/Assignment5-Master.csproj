@@ -73,7 +73,6 @@
     <Content Include="admin\Course_Reg.aspx" />
     <Content Include="faculty\Faculty_Page.aspx" />
     <Content Include="faculty\Faculty_Reg.aspx" />
-    <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="student\Student_reg.aspx" />
     <Content Include="Web.config" />
@@ -128,13 +127,6 @@
     </Compile>
     <Compile Include="faculty\Faculty_Reg.aspx.designer.cs">
       <DependentUpon>Faculty_Reg.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
