@@ -14,8 +14,8 @@
             <td>
                 <asp:TextBox ID="TextName" runat="server"></asp:TextBox>
             </td>
+            <td><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Enter UserName" ControlToValidate="TextName" ForeColor="Red"></asp:RequiredFieldValidator></td>
         </tr>
-        <tr></tr>
         <tr>
             <td>
                 <asp:Label ID="Label2" runat="server" Text="Password :"></asp:Label>
@@ -23,8 +23,9 @@
             <td>
                 <asp:TextBox ID="TextPassword" runat="server" Visible="True" TextMode="Password"></asp:TextBox>
             </td>
+            <td>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Enter Password" ControlToValidate="TextPassword" ForeColor="Red"></asp:RequiredFieldValidator></td>
         </tr>
-        <tr></tr>
         <tr>
             <td>
                 <asp:Button ID="Button1" runat="server" Text="Cancel" />
